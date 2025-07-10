@@ -40,5 +40,5 @@ The company is operating with efficiency and meet demand without significant ove
 # Files Included
 . the raw data
 . the cleaned data
-. the dashboard created
+. the dashboard
 
