@@ -5,15 +5,18 @@ Downloaded the Grocery Inventory and Slaes dataset from Kaggle.
 Link- https://www.kaggle.com/datasets/salahuddinahmedshuvo/grocery-inventory-and-sales-dataset
 # Data Description
 This dataset provides detailed information on various grocery items, including product details, supplier information, stock levels, reorder data, pricing, and sales performance. The data covers 990 products across various categories such as Grains & Pulses, Beverages, Fruits & Vegetables, and more.
-# Data Cleaning Steps and Handling 📊
-·     Transformed the raw .csv dataset into a usable Excel format using Power Query, ensuring data integrity.
-·     Appropriately filled missing values in the 'Category' column based on product items for robust analysis.
-·     Ensured all datatypes were accurately formatted according to variable descriptions.
-·     Created an essential 'Sales Revenue' column by calculating Sales_Volume*Unit_Price.
-·     Defined 'Turnover_Segment' based on Inventory_Turnover_Rate to categorize products:
-      High: > 60
-      Medium: 20-60
-      Low: 0-20
+# Data Cleaning and Preprocessing 📊
+
+During this project, rigorous data cleaning and preprocessing steps were undertaken to ensure the dataset's integrity and prepare it for robust analysis:
+
+* **Data Transformation:** The raw `.csv` dataset was transformed into a usable Excel format using Power Query, maintaining data integrity throughout the process.
+* **Missing Value Imputation:** Missing values in the 'Category' column were appropriately filled based on relevant product items to ensure comprehensive and robust analysis.
+* **Data Type Formatting:** All datatypes were meticulously checked and accurately formatted according to their variable descriptions, preventing inconsistencies in analysis.
+* **Feature Engineering - Sales Revenue:** An essential 'Sales Revenue' column was created by calculating `Sales_Volume * Unit_Price`, providing a key metric for financial analysis.
+* **Categorical Feature Creation - Turnover Segment:** A 'Turnover_Segment' was defined based on the 'Inventory_Turnover_Rate' to categorize products, facilitating segmented analysis:
+    * **High:** > 60
+    * **Medium:** 20-60
+    * **Low:** 0-20
 # Dashboard Creation
 All visuals and KPIs were dynamically created using PivotTables and PivotCharts for Summary Statistics and to visualize the trends, with strategic use of Slicers for interactive exploration.
 # Insights 💡
